@@ -4,6 +4,11 @@ function nextBigger(num) {
     }
 
     var sorted = sortNum(num);
+    var revSorted = sorted.split('').reverse().join('');
+
+    if (+revSorted ===  num) {
+        return num;
+    }
 
     do {
         num++;
