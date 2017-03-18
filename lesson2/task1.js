@@ -4,13 +4,11 @@ function nextBigger(num) {
     }
 
     var sorted = sortNum(num);
-    var revSorted = sorted.split('').reverse().join('');
-
-    if (+revSorted ===  num) {
-        return num;
-    }
 
     do {
+    	if (+sorted.split('').reverse().join('') === num) {
+        	break;
+        }
         num++;
         var newSorted = sortNum(num);
     } while (newSorted !== sorted);
@@ -18,6 +16,7 @@ function nextBigger(num) {
     return num;
 }
 
+console.log(nextBigger(21));
 console.log(nextBigger(12));
 console.log(nextBigger(513));
 console.log(nextBigger(2017));
