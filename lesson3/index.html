@@ -9,12 +9,25 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/main.css">
-    
+
     <title>User Photo</title>
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam, asperiores at, corporis culpa ea eius ipsam iure maiores mollitia non quaerat saepe sequi similique sunt tempora ullam veritatis voluptate.</p>
 
-    <script src="./scripts/main.js"></script>
+<div class="app">
+    <div class="container">
+        <h1 class="app__title">Albums loader</h1>
+        <div class="controls">
+            <form class="app-form" action="">
+                <input class="app__input" placeholder="user id:" type="text" name="user-id">
+                <button class="btn btn--submit" type="submit">Load albums</button>
+            </form>
+        </div>
+        <div class="content">
+        </div>
+    </div>
+</div>
+
+<script src="./scripts/main.js"></script>
 </body>
 </html>

@@ -31,3 +31,59 @@ img {
     height: auto;
     vertical-align: top;
 }
+
+.container {
+    max-width: 960px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.app__title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.controls {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.controls form{
+    display: flex;
+}
+
+.app__input {
+    flex: 1;
+    border: darkorange 2px solid;
+    border-right: none;
+    height: 30px;
+    line-height: 24px;
+    font-size: 20px;
+    color: black;
+    padding: 0 10px;
+    outline: none;
+}
+
+.btn--submit {
+    outline: none;
+    background: darkorange;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 200ms ease-in-out;
+}
+
+.btn--submit:hover {
+    background: orangered;
+}
+
+.album {
+    margin-bottom: 20px;
+}
+
+.album__title {
+    margin-bottom: 10px;
+}
