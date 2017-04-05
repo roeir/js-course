@@ -6,6 +6,7 @@
   "author": "Andrii Skrebets <skrebets.andrew@yandex.ru>",
   "license": "MIT",
   "dependencies": {
+    "request": "^2.81.0",
     "request-promise": "^4.2.0",
     "yargs": "^7.0.2"
   }
